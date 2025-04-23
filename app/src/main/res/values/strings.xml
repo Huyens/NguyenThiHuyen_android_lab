@@ -1,0 +1,15 @@
+<resources>
+        <string name="app_name">NguyenThiHuyen</string>
+        <string name="go_button1_title">Play Game</string>
+        <string name="go_button2_title">Stop</string>
+        <string name="go_button3_title">Game Settings</string>
+        <string name="go_button4_title">Help</string>
+        <string name="go_button5_title">Core</string>
+
+        <string name="Status">Status</string>
+        <string name="Position">Position</string>
+
+        <string name="menu_red_string">Red string</string>
+        <string name="menu_green_string">Green string</string>
+        <string name="menu_blue_string">Blue string</string>
+</resources>
