@@ -85,6 +85,19 @@
                 android:textSize="24sp" />
 
 
+            <Button
+                android:id="@+id/go_button6"
+                android:layout_width="288dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#4CAF50"
+                android:shadowColor="#FFFFFF"
+                android:text="@string/go_button6_title"
+                android:textColorLink="#FFFFFF"
+                android:textSize="24sp" />
+
         </LinearLayout>
     </RelativeLayout>
 

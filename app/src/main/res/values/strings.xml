@@ -1,10 +1,11 @@
 <resources>
         <string name="app_name">NguyenThiHuyen</string>
-        <string name="go_button1_title">Play Game</string>
-        <string name="go_button2_title">Stop</string>
+        <string name="go_button1_title">Click</string>
+        <string name="go_button2_title">Position</string>
         <string name="go_button3_title">Game Settings</string>
-        <string name="go_button4_title">Help</string>
+        <string name="go_button4_title">Color background</string>
         <string name="go_button5_title">Core</string>
+        <string name="go_button6_title">Widget basic day 3</string>
 
         <string name="Status">Status</string>
         <string name="Position">Position</string>

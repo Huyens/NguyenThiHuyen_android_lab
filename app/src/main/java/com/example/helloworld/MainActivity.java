@@ -8,8 +8,10 @@ import android.content.Intent;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.helloworld.day3.WidgetBasicDay3Activity;
 
-public class MainActivity extends AppCompatActivity {
+
+    public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -99,6 +101,22 @@ public class MainActivity extends AppCompatActivity {
                 // Tạo một Intent:
                 // (Mang nội dung sẽ gửi tới Example5Activity).
                 Intent myIntent = new Intent(MainActivity.this, Example5Activity.class);
+
+                // Yêu cầu chạy Example5Activity.
+                MainActivity.this.startActivity(myIntent);
+            }
+        });
+
+        Button button6 = (Button) this.findViewById(R.id.go_button6);
+
+        // Sét đặt sự kiện Click vào Button5.
+        button6.setOnClickListener(new Button.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                // Tạo một Intent:
+                // (Mang nội dung sẽ gửi tới Example5Activity).
+                Intent myIntent = new Intent(MainActivity.this, WidgetBasicDay3Activity.class);
 
                 // Yêu cầu chạy Example5Activity.
                 MainActivity.this.startActivity(myIntent);
